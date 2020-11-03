@@ -24,7 +24,7 @@ Each feature is configuration driven, pass in a configuration object as the thir
 
 The following is the default configuration:
 ```javascript
-const server = new ScriptServer(real_clock: {
+const server = new ScriptServer({real_clock: {
         
         // Enable Plugin
         enabled: false,
@@ -59,7 +59,7 @@ const server = new ScriptServer(real_clock: {
         // Timeout to Update the Server Time (milliseconds)
         timeout: 5000
         
-    });
+    }});
 ```
 
 ## This ScriptServer module uses:
