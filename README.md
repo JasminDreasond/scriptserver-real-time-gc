@@ -61,3 +61,6 @@ const server = new ScriptServer(real_clock: {
         
     });
 ```
+
+## This ScriptServer module uses:
+  - [scriptserver-event](https://github.com/garrettjoecox/scriptserver-event)
