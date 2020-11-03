@@ -20,7 +20,7 @@ server.use(require('scriptserver-real-time-gc'));
 This plugin will allow your server to have a game time identical to a real life time, you can freely choose which timezone you want your server to have.
 
 ## Configuration
-Each feature is configuration driven, pass in a configuration object as the third argument of your Scriptserver before requiring `scriptserver-esssentials`
+Each feature is configuration driven, pass in a configuration object as the third argument of your Scriptserver before requiring `scriptserver-real-time-gc`
 
 The following is the default configuration:
 ```javascript
