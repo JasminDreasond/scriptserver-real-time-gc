@@ -1,0 +1,25 @@
+{
+  "name": "scriptserver-real-time-gc",
+  "version": "1.0.0",
+  "description": "Real Time Server Clock to Minecraft",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasminDreasond/scriptserver-real-time-gc.git"
+  },
+  "author": "Yasmin Seidel (https://github.com/JasminDreasond)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/JasminDreasond/scriptserver-real-time-gc/issues"
+  },
+  "homepage": "https://github.com/JasminDreasond/scriptserver-real-time-gc#readme",
+  "peerDependencies": {
+    "scriptserver": "^1.2.0"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "moment-timezone": "^0.5.31",
+    "scriptserver-event": "^1.1.1"
+  }
+}
