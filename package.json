@@ -1,6 +1,6 @@
 {
   "name": "scriptserver-real-time-gc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Real Time Server Clock to Minecraft",
   "main": "index.js",
   "repository": {
