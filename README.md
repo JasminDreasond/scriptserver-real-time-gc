@@ -2,7 +2,7 @@
 
 ====================
 
-[![](http://i.imgur.com/zhptNme.png)](https://github.com/garrettjoecox/scriptserver)
+[![](https://i.imgur.com/zhptNme.png)](https://github.com/garrettjoecox/scriptserver)
 
 FYI: This package is an addon for ScriptServer and requires ScriptServer to be set up, please see [here](https://github.com/garrettjoecox/scriptserver) for more information.
 
@@ -30,29 +30,42 @@ const server = new ScriptServer({
         // Enable Plugin
         enabled: false,
 
-        // Timezone Value (Get your timezone here: https://momentjs.com/timezone/)
+        // Timezone Value (Get your timezone value here: https://momentjs.com/timezone/)
         timezone: 'Universal',
 
-        // Amount of hours left in the night to start insomnia
+        // Amount of hours left in the night time to start the insomnia effects
         insomnia: {
             hour: 2,
             minute: 0
         },
 
-        // Night Time
+        // Night Time (The time that the game night will start)
         night: {
             hour: 18,
             minute: 0
         },
 
-        // Day Time
+        // Day Time (The time that the game day will start)
         day: {
             hour: 6,
             minute: 0
         },
 
-        // Set Time Command
-        command: 'time set {time_ticks}t {world_name}',
+        /* 
+        
+            Set Time Command
+            This example is the default value used for Minecraft Vanilla Servers
+
+            If you are using plugins, it is recommended that you change this value to adapt the command to be sent.
+
+            These are the 3 values that you can add to your custom command:
+
+            {time_ticks} - This is the time value coverted to sticks
+            {time_string} - This is the normal time value (Example: 18:53)
+            {world_name} - This value will work if you add world names in the variable "worlds"
+        
+        */
+        command: 'time set {time_ticks}t',
 
         // World List (For Plugin Servers Only)
         worlds: [],
