@@ -77,5 +77,17 @@ const server = new ScriptServer({
 });
 ```
 
+## Commands Executed
+```
+time set (or a custom command of the plugin settings in the variable "command")
+```
+```
+gamerule doDaylightCycle false
+```
+```
+gamerule doInsomnia true
+gamerule doInsomnia false
+```
+
 ## This ScriptServer module uses:
   - [scriptserver-event](https://github.com/garrettjoecox/scriptserver-event)
